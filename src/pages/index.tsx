@@ -118,7 +118,7 @@ export default function SoundApp() {
   const fetchSoundList = async () => {
     try {
       setError(null);
-      const response = await fetch(`https://go-ebening:8080/?guildID=${GUILD_ID}`, {
+      const response = await fetch(`https://go-ebening-production.up.railway.app/?guildID=${GUILD_ID}`, {
         method: 'GET',
         credentials: 'include',
         headers: {
