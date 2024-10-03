@@ -25,7 +25,7 @@ interface UserInfo {
 }
 
 const DISCORD_CLIENT_ID = '1291400589531676694';
-const REDIRECT_URI = 'http://localhost:3000';
+const REDIRECT_URI = 'https://gleaming-exploration-production.up.railway.app/';
 const GUILD_ID = '675890476079120394';
 
 export default function SoundApp() {
